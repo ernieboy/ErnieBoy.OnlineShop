@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ErnieBoy.OnlineShop.Application\ErnieBoy.OnlineShop.Application.csproj" />
+    <ProjectReference Include="..\ErnieBoy.OnlineShop.Common\ErnieBoy.OnlineShop.Common.csproj" />
+    <ProjectReference Include="..\ErnieBoy.OnlineShop.Domain\ErnieBoy.OnlineShop.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
